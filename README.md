@@ -1,4 +1,4 @@
-# Lunch Money Toolkit
+# Toolkit for Lunch Money
 
 A Chrome extension that enhances the Lunch Money web app with additional features, inspired by [Toolkit for YNAB](https://github.com/toolkit-for-ynab/toolkit-for-ynab).
 

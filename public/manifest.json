@@ -1,10 +1,10 @@
 {
   "manifest_version": 3,
   "name": "Toolkit for Lunch Money",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Tweak the Lunch Money experience with additional features",
   "permissions": ["storage", "scripting"],
-  "host_permissions": ["https://my.lunchmoney.app/*"],
+  "host_permissions": ["https://*.lunchmoney.app/*"],
   "background": {
     "service_worker": "background.js"
   },
@@ -19,7 +19,7 @@
   "options_page": "options.html",
   "content_scripts": [
     {
-      "matches": ["https://my.lunchmoney.app/*"],
+      "matches": ["https://*.lunchmoney.app/*"],
       "js": ["content.js"]
     }
   ]
